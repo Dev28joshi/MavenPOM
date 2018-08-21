@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29997" started-at="2018-07-05T18:03:03Z" finished-at="2018-07-05T18:03:33Z">
+  <suite name="automationFrameWork" duration-ms="19559" started-at="2018-07-31T05:04:09Z" finished-at="2018-07-31T05:04:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29997" started-at="2018-07-05T18:03:03Z" finished-at="2018-07-05T18:03:33Z">
+    <test name="zPom-maven" duration-ms="19559" started-at="2018-07-31T05:04:09Z" finished-at="2018-07-31T05:04:29Z">
       <class name="automationFrameWork.Module_TC">
-        <test-method status="PASS" signature="EndToEnd()[pri:0, instance:automationFrameWork.Module_TC@224edc67]" name="EndToEnd" duration-ms="29935" started-at="2018-07-05T18:03:03Z" finished-at="2018-07-05T18:03:33Z">
+        <test-method status="PASS" signature="EndToEnd()[pri:0, instance:automationFrameWork.Module_TC@27c20538]" name="EndToEnd" duration-ms="19499" started-at="2018-07-31T05:04:09Z" finished-at="2018-07-31T05:04:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndToEnd -->
       </class> <!-- automationFrameWork.Module_TC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- zPom-maven -->
+  </suite> <!-- automationFrameWork -->
 </testng-results>

@@ -1,0 +1,7 @@
+<suite name="automationFrameWork">
+	<test name="zPom-maven">
+		<classes>
+			<class name="automationFrameWork.Module_TC" />
+		</classes>
+	</test>
+</suite>

@@ -14,7 +14,9 @@ public class Module_TC
 {
 
 	public static WebDriver driver=null;
-@Test
+	@Test
+	//public static void main(String[] args) {
+
 	public static void EndToEnd() 
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Zeus\\Desktop\\Selenium\\geckodriver.exe");
@@ -24,6 +26,7 @@ public class Module_TC
 		Home_Page.login_lnk(driver).click();
 		Sign_Action.execute(driver);
 		Home_Page.lnk_logout(driver).click();
-		
+		driver.quit();
+
 	}
 }
